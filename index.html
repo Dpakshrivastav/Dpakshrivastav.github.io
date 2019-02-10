@@ -1,16 +1,96 @@
-<!doctype html>
-<html>
-  <head>
-  <!--  <script>
-      var host = "deepakshrivastav.info";
-      if(host==window.location.host && window.location.protocol != "https:"){
-        window.location.protocol = "https";
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Resume</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+    *{
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-family: "Quattrocento", sans-serif;    
+    }
+    .home{
+        background: #25b79f;
+        /* margin: 0; */
+        min-width: 100vh;
+        min-height: 100vh;
+    }
+    html, body, div, li, ul, nav{
+        margin: 0;
+        
+        padding: 0;
+    }
+    html, body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .menu-bar{
+        text-decoration: none;
+        list-style: none;
+
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: "Comfortaa", Helvetica, Arial, 
+    }
+    .menu{
+        float: right;
+        margin-right: 2%;
+    }
+    .menu-list{
+        display: inline;
+        margin-left: 30px;
+    }
+    .menu-list > a{
+        text-decoration: none;
+        color: azure;
+        font-weight: bold;
+    }
+    .menu-list:hover{
+        border: 2px solid white;
+        padding: 12px;
+        color: azure;
+        cursor: pointer;
+    }
+    .navbar{
+        position: sticky;
+        padding: 30px;
     
-    </script> 
-    <link rel="canonical" href="deepakshrivastav.info"/>
-  --></head>
-  <body>
-hello world
+        }
+    .brand{
+        display: inline;
+    }
+    .center-text{
+        position: absolute;
+        top: 40%;
+        /* left: 43%; */
+        
+    }
+    h1[class="center-text my-name"]{
+        text-align: center;
+    }
+    .my-name{
+        color: #07374a;
+    }
+</style>
+<body>
+    <div class="home">
+            <nav class="navbar">
+                    <div class="brand">
+                        <!-- <h1>Welcome to my site</h1> -->
+                        <strong>Deepak Shrivastav</strong>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu-bar">
+                            <li class="menu-list"><a href="">Home</a></li>
+                            <li class="menu-list"><a href="">Projects</a></li>
+                            <li class="menu-list"><a href="contactus.html">ContactMe</a></li>
+                        </ul>
+                    </div>
+            </nav>
+        <h1 class="center-text my-name">Hi, I'm Deepak<br>I'm a web Developer and<br>  Data Enthuatic</h1>
+    </div>
 </body>
 </html>
